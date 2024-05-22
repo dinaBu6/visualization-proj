@@ -1,0 +1,38 @@
+.line-chart {
+    display: inline-block;
+    position: relative;
+    width: 48%;
+    padding-bottom: 25%;
+    vertical-align: top;
+    overflow: hidden;
+    right: 0;
+    background-color: white;
+    margin-left: 2%;
+}
+
+.svg-content {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.line {
+    stroke: #e20914;
+    fill: none;
+    stroke-width: 1.5px;
+}
+
+/* .toolText {
+    font-size: 10px;
+} */
+
+.focus text {
+    font-size: 14px;
+}
+
+.tooltipRect {
+    fill: white;
+    stroke: #6F257F;
+    stroke-width: 0.8px;    
+}

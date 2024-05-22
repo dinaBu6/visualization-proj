@@ -1,0 +1,73 @@
+.home {
+    position: relative;
+    padding-bottom: 6.2%;
+}
+
+.par {
+    text-align: center;
+    padding-bottom: 52%;
+    padding-top: 20%;
+}
+
+.div-button {
+    position: absolute;
+    display: inline-block;
+    left: 1%;
+    top: 5%;
+    z-index: 1;
+}
+
+.resetBot {
+    position: relative;
+    display: inline-block;
+    /* left:10px;
+    top: -30px; */
+    color: #e20914;
+    font-weight: bold;
+   /*background-color: rgba(0, 255, 174, 0.226);*/
+}
+
+
+h2 {
+    margin: auto;
+    color: black;
+    font-size: 20px;
+}
+
+h2 em {
+    color:#e20914; 
+    font-style: normal;
+    font-size: 26px;
+}
+
+.intreText {
+    margin: 10px auto;
+    width: 70%;
+    margin-bottom: 30px;
+
+}
+.intreText p{
+   text-align: center;
+   font-size: 18px;
+}
+
+.headerHome {
+    text-align: center;
+    padding: 1.5%;
+}
+
+.countDiv {
+    display: inline-block;
+    position: relative;
+    width: 18%;
+    height: fit-content;
+    /* padding-bottom: 11.8%; */
+    vertical-align: top;
+    overflow: hidden;
+    left: 0;
+    background-color: white;
+}
+
+#hgraphs {
+    position:relative;
+}

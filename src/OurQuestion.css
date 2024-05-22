@@ -1,0 +1,35 @@
+.our-question {
+    position: relative;
+}
+
+.header {
+    text-align: center;
+    margin: 10px auto;
+    padding: 8px;
+}
+
+.div-filter {
+    position: absolute;
+    display: inline-block;
+    right:0%;
+    z-index:1;
+}
+
+.filteredYear {
+    position: relative;
+    display: inline-block;
+    right:10px;
+    top: -30px;
+}
+
+.filteredP {
+    position: relative;
+    display: inline-block;
+    right:20px;
+    top: -30px;
+    width: fit-content;
+    margin: 0;
+    font-size: 15px;
+}
+
+

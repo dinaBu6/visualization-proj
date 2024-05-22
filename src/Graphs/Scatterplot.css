@@ -1,0 +1,64 @@
+.scatter-plot {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    padding-bottom: 25%;
+    vertical-align: top;
+    overflow: hidden;
+    background-color: white;
+}
+
+.svg-content {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.regLine{
+    stroke:rgb(0, 0, 0);
+    stroke-width:2px;
+}
+
+.tooltip{
+    opacity:0;
+
+    border:solid;
+    border-width:1px;
+    border-radius:5px;
+    padding:10px;
+    position:absolute;
+    text-align:center;
+    
+}
+
+/* .regTooltip{
+    position:absolute;
+    width:auto;
+    border-radius:5px;
+    height:auto;
+    font-family: calibri;
+    font-weight:bold;
+    font-size: 14px;
+    background-color: lightgrey;
+    border: 1px solid grey;
+    text-align: center;
+    padding:10px;
+} */
+
+.checkDiv {
+    position:absolute;
+     left:15px; 
+     bottom:0;
+}
+
+.regCheck {
+    width: 14px;
+
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
